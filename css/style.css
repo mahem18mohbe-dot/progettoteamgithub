@@ -2,10 +2,10 @@
     :root {
         /* Light Theme */
         --bg-color: #F0F1F2;
-        --text-color: #171717;
-        --text-muted: #525252;
-        --primary-color: #8b5cf6;
-        --secondary-color: #0ea5e9;
+        --text-color: #0B3B59;
+        --text-muted: #115D8C;
+        --primary-color: #9498F2;
+        --secondary-color: #05DBF2;
         --surface-color: rgba(255, 255, 255, 0.7);
         --border-color: rgba(0, 0, 0, 0.1);
         --glass-border: rgba(139, 92, 246, 0.2);
