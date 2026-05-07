@@ -34,7 +34,7 @@
         });
 
         // Typing Effect Logic
-        const textToType = "Il Tuo Nome";
+        const textToType = "I Palermitani";
         const typeWriterElement = document.getElementById('typewriter');
         let charIndex = 0;
         let isDeleting = false;
@@ -126,4 +126,10 @@
             card.style.transform = 'translateY(20px)';
             card.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
             observer.observe(card);
+        });
+
+          document.querySelectorAll('.progress-bar').forEach(bar => {
+            bar.style.opacity = 0;
+            bar.style.transition = 'opacity 4s ease-out';
+            observer.observe(bar);
         });
